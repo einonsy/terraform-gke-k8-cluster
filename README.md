@@ -28,8 +28,9 @@ Terraform apply
 If this is a first run in an account there is likely to be various api failures as all the required google api’s will not be enabled. 
 
 Once terraform has run to get the details of the cluster run: 
+```
 gcloud container clusters get-credentials proj-einonsy01-gke --region Europe-west2
-
+```
 
 Deploying the kubernetes dashboard to check health of cluster (this uses kubectl)
 
